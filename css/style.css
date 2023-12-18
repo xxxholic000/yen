@@ -70,20 +70,43 @@
       font-size: 18px;
       text-align: center;
       background-color: #999999;
-
     }
 
     .btn-circle:hover {
-      width: 100px;
-      height: 100px;
+      width: 60px;
+      height: 60px;
       border-radius: 50px;
       border: 1px solid rgb(255, 173, 49);
       font-size: 18px;
       text-align: center;
       background-color: rgb(255, 173, 49);
-
     }
-
+    .close {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background-color:rgb(105, 105, 105);
+      border-radius: 50%;
+     
+    }
+    .close:hover {
+      opacity: 1;
+    }
+    .close:before, .close:after {
+      position: absolute;
+      top:8px;
+      left: 19px;
+      content: ' ';
+      height: 24px;
+      width: 2px;
+      background-color: #ffffff;
+    }
+    .close:before {
+      transform: rotate(45deg);
+    }
+    .close:after {
+      transform: rotate(-45deg);
+    }
     .top-document {
       padding-top: 4rem;
       padding-bottom: 6rem;
