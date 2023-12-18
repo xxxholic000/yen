@@ -73,8 +73,8 @@
     }
 
     .btn-circle:hover {
-      width: 60px;
-      height: 60px;
+      width: 100px;
+      height: 100px;
       border-radius: 50px;
       border: 1px solid rgb(255, 173, 49);
       font-size: 18px;
