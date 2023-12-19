@@ -124,8 +124,9 @@
       padding-top: 150px;
     }
     .navbar-text{
-      text-shadow: 0.1em 0.1em 0.5em #333;
+      text-shadow: 0.1em 0.1em 0.5em #212529;
     }
+
 
     @media (min-width: 1400px) {
       .h100 {
