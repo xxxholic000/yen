@@ -126,7 +126,15 @@
     .navbar-text{
       text-shadow: 0.1em 0.1em 0.5em #212529;
     }
+   .fs-80{
+    font-size: 80px;
+   }
 
+   body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+  }
+  
 
     @media (min-width: 1400px) {
       .h100 {
