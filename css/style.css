@@ -403,6 +403,9 @@ span {
     .pagetext img {
         width: 80px;
     }
+    .cover {
+        opacity: 0;
+    }
 
 }
 
@@ -483,9 +486,7 @@ span {
         width: 80%;
         margin: 0 auto;
     }
-    .cover {
-        opacity: 0;
-    }
+
 
     .pic01 img,
     .pic02 img,
