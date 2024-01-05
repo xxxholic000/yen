@@ -365,6 +365,9 @@ span {
     .pagetext img {
         width: 80px;
     }
+    .cover {
+        opacity: 0;
+    }
 
 }
 @media (max-width:1299px) {
@@ -403,9 +406,7 @@ span {
     .pagetext img {
         width: 80px;
     }
-    .cover {
-        opacity: 0;
-    }
+
 
 }
 
