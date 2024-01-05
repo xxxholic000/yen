@@ -326,9 +326,9 @@ span {
     flex-flow: row-reverse !important;
 }
 
-.pagepic{
-    width: 50%;
-    padding: 3%;
+.pagepic {
+    width: 70%;
+
 }
 .pagepic img{
     border-radius: 20px;
@@ -336,19 +336,36 @@ span {
 
 .pagetext { 
     width: 50%;  
-    margin: 5%;
+    margin:5%;
     text-align: center;
 }
 .pagetext img{
     width: 120px;
 }
 .word{
-    font-size: 24px;
+    font-size: 30px;
     border: 2px solid #333333;
     padding: 10px;
     border-radius: 50px;
-    margin: 15px 30px;
+    margin: 15px ;
     text-align: center;
+}
+@media (max-width:1440px) {
+    .fs-48{
+        font-size: 34px;
+    }
+    .pagetext {
+        margin: 4% ;
+
+    }
+    .word{
+        font-size: 26px;
+        margin: 5px;
+    }
+    .pagetext img {
+        width: 80px;
+    }
+
 }
 @media (max-width:1299px) {
     .chapter-text {
@@ -367,18 +384,28 @@ span {
         top: -228px;
         -webkit-text-stroke: 1px #ffffff;
     }
-
     .pagebox{
         width: 100%;
+        padding: 0;
     }
-    .pagepic {
-        width: 50%;
-       
-    }
-    
+    .word{
+        font-size: 22px;
+        margin: 10px 0;
 
+    }
+    .pagetext {
+        margin: 5%;
+
+    }
+    .fs-48 {
+        font-size: 26px;
+    }
+    .pagetext img {
+        width: 80px;
+    }
 
 }
+
 
 /* desktops */
 @media (max-width: 992px) {
@@ -387,11 +414,16 @@ span {
         width: 80%;
     }
     .pagepic {
-        width: 94%;
+        width: 100%;
+        padding: 0;
 
     }
+    .pagepic img{
+        margin: 2% 0;
+    }
     .pagetext {
-        width: 90%;
+        width: 100%;
+        margin: 0;
     }
     
     .line-text {
@@ -514,9 +546,6 @@ span {
         padding-bottom: 80px;
     }
 
-    .fs-32 {
-        font-size: 28px;
-    }
 
     .fs-140 {
         font-size: 90px;
