@@ -367,6 +367,7 @@ span {
         top: -228px;
         -webkit-text-stroke: 1px #ffffff;
     }
+
     .pagebox{
         width: 100%;
     }
@@ -488,7 +489,7 @@ span {
     .linetext-webdesign {
         font-size: 100px;
         top: -330px;
-
+        -webkit-text-stroke: 1px #ffffff;
     }
     .page {
         width: 100%;
