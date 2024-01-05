@@ -326,11 +326,6 @@ span {
     flex-flow: row-reverse !important;
 }
 
-.pagepic {
-    width: 50%;
-    /* background-image: url(../img/proposal.jpg); */
-
-}
 .pagepic{
     width: 50%;
     padding: 3%;
