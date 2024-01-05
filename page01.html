@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <title>分紅保單</title>
 </head>
@@ -66,22 +67,37 @@
         </footer>
     </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript">
-    $(function() {
-        /* 按下GoTop按鈕時的事件 */
-        $('#gotop').click(function(){
-            $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
-            return false;
-        });
-        
-        /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-        $(window).scroll(function() {
-            if ( $(this).scrollTop() > 400){
-                $('#gotop').fadeIn();
-            } else {
-                $('#gotop').fadeOut();
-            }
-        });
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
     });
-    </script> 
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
 </html>
