@@ -368,6 +368,11 @@ span {
     .cover {
         opacity: 0;
     }
+    .footertext {
+        font-size: 80px;
+        line-height: 66px;
+
+    }
 
 }
 @media (max-width:1299px) {
