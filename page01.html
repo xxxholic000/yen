@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/base.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <title>分紅保單</title>
+</head>
+
+<body class="bg-f5f5f5">
+    <a href=""><div id="gotop">top</div></a>
+    <div class="container">
+        <div class="kv">
+            <a href="index.html">
+                <div class="hometop"></div>
+                <span class="fw-bold">HOME</span>
+            </a>
+            <div class="text-center pxy-120 fs-40 fw-bold">分紅保單
+                <a href="https://www.fubon.com/life/edmprod/participating/index.html" target="_blank">
+                    <div class="link">連結</div>
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <div class="chapter pt-40">
+                <div class="fs-24 py-8 fw-bold">專案角色</div>
+                <div class="fs-18 ">RWD網頁視覺設計</div>
+            </div>
+            <div class="chapter  pt-40">
+                <div class="fs-24 py-8 fw-bold">專案目的</div>
+                <div class="fs-18 ">當保戶瀏覽保險新商品時，為了加速保戶能夠快速了解商品的價值，頁面針對商品資訊做詳的細解析及介紹。</div>
+            </div>
+            <div class="chapter  pt-40">
+                <div class="fs-24 fw-bold">設計理念</div>
+                <div class="fs-18 ">視覺以棒球紅不讓為發想，九宮格可快速導覽頁面，風格以向量圖為主；實體照片為輔，色系以富邦藍跟綠為主，頁面添加些許棒球元素為點綴增加協調性。</div>
+            </div>
+            <div class="chapter  pt-40">
+                <div class="fs-24 fw-bold">資訊架構</div>
+                <div><img src="img/dividend-01.png" alt=""></div>
+            </div>
+            <div class="chapter pb-140">
+                <div class="fs-24 fw-bold">色彩計畫</div>
+                <div><img src="img/dividend-02.png" alt=""></div>
+            </div>
+            <div class="bg-add4dd">
+                <div class="box">
+                    <div class="linetext-web">WEB DESIGN</div>
+                    <div class="linetext-webdesign stroke">WEB DESIGN</div>
+                </div>
+
+                <div class="view">
+                    <div class="fs-24 fw-bold">頁面呈現</div>
+                    <div><img src="img/dividend-03.png" alt=""></div>
+                    <div><img src="img/dividend-04.png" alt=""></div>
+                </div>
+                <div class="back"> 
+                    <a href="index.html" class="">返回首頁<img src="img/undo.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <footer class="gradient">
+            <div class="thankyou"></div>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function() {
+        /* 按下GoTop按鈕時的事件 */
+        $('#gotop').click(function(){
+            $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+            return false;
+        });
+        
+        /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 400){
+                $('#gotop').fadeIn();
+            } else {
+                $('#gotop').fadeOut();
+            }
+        });
+    });
+    </script> 
+</html>
