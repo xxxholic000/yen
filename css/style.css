@@ -528,8 +528,6 @@ span {
     }
 
 
-
-
 }
 
 /* tablets */
@@ -698,6 +696,12 @@ span {
     .fs-32 {
         font-size: 22px;
     }
+    .fs-40{
+        font-size: 34px;
+    }
+    .fs-24 {
+        font-size: 18px;
+    }
     .word{
         font-size: 18px;
         margin: 10px;
@@ -707,9 +711,6 @@ span {
         padding-bottom: 40px;
     }
 
-    .fs-24 {
-        font-size: 18px;
-    }
 
     .footertext {
         font-size: 48px;
