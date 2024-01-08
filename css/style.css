@@ -195,7 +195,7 @@ footer {
 }
 .page02kv {
     width: 100%;
-    background-image: url(../img/proposal-kv.jpg);
+    background-image: url(../img/proposal-kv-t.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -417,7 +417,7 @@ span {
 
     }
     .pxy-120{
-        padding: 80px;
+        padding: 100px;
     }
 }
 @media (max-width:1299px) {
