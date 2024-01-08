@@ -195,7 +195,7 @@ footer {
 }
 .page02kv {
     width: 100%;
-    background-image: url(../img/proposal-kv-t.jpg);
+    background-image: url(../img/proposal-kv.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -500,7 +500,42 @@ span {
         top: -233px;
 
     }
-
+    .page01kv {
+        width: 100%;
+        background-image: url(../img/dividend-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page02kv {
+        width: 100%;
+        background-image: url(../img/proposal-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page03kv {
+        width: 100%;
+        background-image: url(../img/gym-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page04kv {
+        width: 100%;
+        background-image: url(../img/deer-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page05kv {
+        width: 100%;
+        background-image: url(../img/travel-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page06kv {
+        width: 100%;
+        background-image: url(../img/ip-kv-t.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
 
 
