@@ -26,7 +26,9 @@
 .fs-40 {
     font-size: 40px;
 }
-
+.fs-44 {
+    font-size: 44px;
+}
 .fs-48 {
     font-size: 48px;
 }
@@ -133,6 +135,13 @@
 }
 .bg-adddff{
     background-color: #adddff;
+}
+.bg-009eff{
+    background-color: #009eff;
+}
+
+.fsc-fff{
+    color: #ffffff;
 }
 
 
