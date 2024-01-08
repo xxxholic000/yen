@@ -217,12 +217,7 @@ footer {
     background-size: cover;
     background-position: center;
 }
-.page06kv {
-    width: 100%;
-    background-image: url(../img/ip-kv.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 
 .link {
     width: 100px;
@@ -393,6 +388,7 @@ span {
     margin: 15px ;
     text-align: center;
 }
+
 @media (max-width:1440px) {
     .fs-44{
         font-size: 34px;
@@ -417,7 +413,7 @@ span {
 
     }
     .pxy-120{
-        padding: 100px;
+        padding: 100px ;
     }
 }
 @media (max-width:1299px) {
@@ -530,12 +526,7 @@ span {
         background-size: cover;
         background-position: center;
     }
-    .page06kv {
-        width: 100%;
-        background-image: url(../img/ip-kv-t.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+
 
 
 
