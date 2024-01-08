@@ -732,6 +732,30 @@ span {
         padding-top: 40px;
     }
 
+    .page02kv {
+        width: 100%;
+        background-image: url(../img/proposal-kv-m.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page03kv {
+        width: 100%;
+        background-image: url(../img/gym-kv-m.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page04kv {
+        width: 100%;
+        background-image: url(../img/deer-kv-m.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page05kv {
+        width: 100%;
+        background-image: url(../img/travel-kv-m.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
 
 }
