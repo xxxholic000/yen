@@ -195,7 +195,7 @@ footer {
 }
 .page02kv {
     width: 100%;
-    background-image: url(../img/dividend-kv.jpg);
+    background-image: url(../img/proposal-kv.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -207,13 +207,13 @@ footer {
 }
 .page04kv {
     width: 100%;
-    background-image: url(../img/dividend-kv.jpg);
+    background-image: url(../img/deer-kv.jpg);
     background-size: cover;
     background-position: center;
 }
 .page05kv {
     width: 100%;
-    background-image: url(../img/dividend-kv.jpg);
+    background-image: url(../img/travel-kv.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -416,7 +416,9 @@ span {
         line-height: 66px;
 
     }
-
+    .pxy-120{
+        padding: 80px;
+    }
 }
 @media (max-width:1299px) {
     .chapter-text {
@@ -498,6 +500,7 @@ span {
         top: -233px;
 
     }
+
 
 
 }
@@ -700,6 +703,7 @@ span {
     .pt-100 {
         padding-top: 40px;
     }
+
 
 
 }
