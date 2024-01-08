@@ -297,18 +297,19 @@ span {
     display: flex;
     justify-content: space-between;
     position: relative;
+    top: 20px;
 }
 .list-right::before{
     content: '';  
     position: absolute;
     width: 0;
     height: 0;
-    top: 33px;
+    top: 36px;
     left: -40px;
     border-left: 10px solid transparent;
-    border-right: 16px solid rgb(36, 36, 36);
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent; 
+    border-right: 14px solid rgb(36, 36, 36);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
 }
 .list-left::after{
     content: '';  
@@ -316,11 +317,11 @@ span {
     width: 0;
     height: 0;
     right: -40px;
-    bottom: 102px;
-    border-left: 16px solid rgb(36, 36, 36);
+    bottom: 104px;
+    border-left: 14px solid rgb(36, 36, 36);
     border-right: 10px solid transparent;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
 }
 .mail {
     position: relative;
