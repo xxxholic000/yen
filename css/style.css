@@ -575,7 +575,7 @@ span {
     .line-text-design {
         font-size: 80px;
         top: -270px;
-        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-stroke: 2px #ffffff;
     }
     .linetext-web {
         font-size: 100px;
@@ -585,7 +585,7 @@ span {
     .linetext-webdesign {
         font-size: 100px;
         top: -330px;
-        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-stroke: 2px #ffffff;
     }
     .page {
         width: 100%;
