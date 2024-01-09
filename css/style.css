@@ -290,24 +290,23 @@ span {
     margin: 0 auto;
     width: 50%;
     height: 140px;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
-    font-weight: bold;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 20px;
+    top: 20px;    
 }
 .list-right::before{
     content: '';  
     position: absolute;
     width: 0;
     height: 0;
-    top: 36px;
+    top: 30px;
     left: -40px;
     border-left: 10px solid transparent;
-    border-right: 14px solid rgb(36, 36, 36);
+    border-right: 14px solid #333333;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent; 
 }
@@ -317,11 +316,15 @@ span {
     width: 0;
     height: 0;
     right: -40px;
-    bottom: 104px;
-    border-left: 14px solid rgb(36, 36, 36);
+    bottom: 110px;
+    border-left: 14px solid #333333;
     border-right: 10px solid transparent;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent; 
+}
+.list-no{
+    display: none;
+
 }
 .mail {
     position: relative;
