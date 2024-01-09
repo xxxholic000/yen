@@ -279,7 +279,7 @@ span {
     text-orientation: sideways;
     transform: rotate(-180deg);
     font-weight: bold;
-    padding: 0px 104px;
+    padding-right: 104px;
     height: 47px;
 }
 .rgb01::before,.rgb02::before ,.rgb03::before ,.rgb04::before ,.rgb05::before {
@@ -527,12 +527,24 @@ span {
         height: 70px;
 
     }
+    .rgb01::before, .rgb02::before, .rgb03::before, .rgb04::before, .rgb05::before {
+        content: '';
+        position: relative;
+        background-color: #ffffff;
+        opacity: .5;
+        writing-mode: vertical-rl;
+        text-orientation: sideways-right;
+        vertical-align: middle;
+        padding: 35px 5px;
+        left: 86px;
+        top: 2px;
+    }
     .rgbtext {
         writing-mode: vertical-rl;
         text-orientation: sideways;
         transform: rotate(-180deg);
         font-weight: bold;
-        padding: 0px 98px;
+        padding-right:92px;
         height: 35px;
         font-size: 12px;
     }
@@ -895,7 +907,7 @@ span {
         text-orientation: sideways;
         transform: rotate(-180deg);
         font-weight: bold;
-        padding: 0px 65px;
+        padding-right:65px;
         height: 29px;
         font-size: 12px;
     }
