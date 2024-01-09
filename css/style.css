@@ -4,7 +4,7 @@
     font-family: 'Noto Sans TC', '微軟正黑體';
     margin: 0;
     padding: 0;
-    list-style: none;  
+    list-style: none;
 }
 
 
@@ -16,7 +16,7 @@ body {
 
 #gotop {
     position: fixed;
-    display:none;
+    display: none;
     bottom: 40px;
     right: 10px;
     z-index: 5;
@@ -24,7 +24,7 @@ body {
     padding: 20px;
     background-color: #ff7d21;
     color: #ffffff;
-    transition:all 0.5s;    
+    transition: all 0.5s;
 }
 
 a {
@@ -149,24 +149,28 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
 .page02kv {
     width: 100%;
     background-image: url(../img/proposal-kv.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .page03kv {
     width: 100%;
     background-image: url(../img/gym-kv.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .page04kv {
     width: 100%;
     background-image: url(../img/deer-kv.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .page05kv {
     width: 100%;
     background-image: url(../img/travel-kv.jpg);
@@ -189,9 +193,10 @@ footer {
 .link:hover {
     background-color: #ff7d21;
     border: 1px solid #ff7d21;
-    color:#ffffff;
+    color: #ffffff;
 }
-.nolink{
+
+.nolink {
     width: 100px;
     font-size: 18px;
     border: 1px solid #c9c9c9;
@@ -203,6 +208,7 @@ footer {
     color: #ffffff;
     background-color: #c9c9c9;
 }
+
 .hometop {
     position: fixed;
     border-radius: 200px;
@@ -241,6 +247,52 @@ span {
     position: relative;
     margin: 0 auto;
     height: 100px;
+    margin-top: 100px;
+}
+.colorplan{
+    position: relative;
+   display: flex;
+}
+.rgb01{
+    background-color: #333333;
+}
+.rgb02{
+    background-color: #2BB8B4;
+}
+.rgb03{
+    background-color: #E90000;
+}
+.rgb04{
+    background-color: #0089D1;
+}
+.rgb05{
+    background-color: #006B98;
+}
+.rgb01 ,.rgb02,.rgb03,.rgb04,.rgb05{
+    width: 140px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.rgbtext {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate(-180deg);
+    font-weight: bold;
+    padding: 0px 104px;
+    height: 47px;
+}
+.rgb01::before,.rgb02::before ,.rgb03::before ,.rgb04::before ,.rgb05::before {
+    content: '';
+    position: relative;
+    background-color: #ffffff;
+    opacity: .5;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    vertical-align: middle;
+    padding: 40px 10px;
+    left: 96px;
+    top: 7px;
 }
 
 .line-text {
@@ -262,6 +314,7 @@ span {
     color: transparent;
     -webkit-text-stroke: 2px #0e5e95;
 }
+
 .linetext-web {
     position: relative;
     font-size: 150px;
@@ -281,6 +334,7 @@ span {
     color: transparent;
     -webkit-text-stroke: 2px #ffffff;
 }
+
 .view {
     width: 70%;
     margin: 0 auto;
@@ -296,10 +350,11 @@ span {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 20px;    
+    top: 20px;
 }
-.list-right::before{
-    content: '';  
+
+.list-right::before {
+    content: '';
     position: absolute;
     width: 0;
     height: 0;
@@ -308,10 +363,11 @@ span {
     border-left: 10px solid transparent;
     border-right: 14px solid #333333;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
+    border-bottom: 10px solid transparent;
 }
-.list-left::after{
-    content: '';  
+
+.list-left::after {
+    content: '';
     position: absolute;
     width: 0;
     height: 0;
@@ -320,12 +376,14 @@ span {
     border-left: 14px solid #333333;
     border-right: 10px solid transparent;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
+    border-bottom: 10px solid transparent;
 }
-.list-no{
+
+.list-no {
     display: none;
 
 }
+
 .mail {
     position: relative;
     top: 41px;
@@ -354,91 +412,130 @@ span {
     width: 70%;
 
 }
-.pagepic img{
+
+.pagepic img {
     border-radius: 20px;
 }
 
-.pagetext { 
-    width: 50%;  
-    margin:5%;
+.pagetext {
+    width: 50%;
+    margin: 5%;
     text-align: center;
 }
-.pagetext img{
+
+.pagetext img {
     width: 120px;
 }
-.word{
+
+.word {
     font-size: 30px;
     border: 2px solid #333333;
     padding: 10px;
     border-radius: 50px;
-    margin: 15px ;
+    margin: 15px;
     text-align: center;
 }
 
+
 @media (max-width:1440px) {
-    .fs-44{
+    .fs-44 {
         font-size: 34px;
     }
+
     .pagetext {
-        margin: 4% ;
+        margin: 4%;
 
     }
-    .word{
+
+    .word {
         font-size: 26px;
         margin: 5px;
     }
+
     .pagetext img {
         width: 80px;
     }
+
     .cover {
         opacity: 0;
     }
+
     .footertext {
         font-size: 80px;
         line-height: 66px;
 
     }
-    .pxy-120{
-        padding: 100px ;
+
+    .pxy-120 {
+        padding: 100px;
     }
 }
+
 @media (max-width:1299px) {
     .chapter-text {
         font-size: 20px;
         line-height: 24px;
     }
+
     .pxy-2060 {
         padding: 2% 10%;
     }
+
     .line-text {
         font-size: 100px;
         top: -83px;
     }
+
     .line-text-design {
         font-size: 100px;
         top: -229px;
         -webkit-text-stroke: 1px #ffffff;
     }
-    .pagebox{
+
+    .pagebox {
         width: 100%;
         padding: 0;
     }
-    .word{
+
+    .word {
         font-size: 22px;
         margin: 10px 0;
 
     }
+
     .pagetext {
         margin: 5%;
 
     }
+
     .fs-44 {
         font-size: 26px;
     }
+
     .pagetext img {
         width: 80px;
     }
-    
+    .pb-140{
+        padding-bottom: 80px;
+    }
+    .colorplan {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .rgb01, .rgb02, .rgb03, .rgb04, .rgb05 {
+        width: 120px;
+        height: 70px;
+
+    }
+    .rgbtext {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        transform: rotate(-180deg);
+        font-weight: bold;
+        padding: 0px 98px;
+        height: 35px;
+        font-size: 12px;
+    }
 
 }
 
@@ -446,23 +543,26 @@ span {
 /* desktops */
 @media (max-width: 992px) {
 
-    .pagebox{
+    .pagebox {
         display: block;
         width: 80%;
     }
+
     .pagepic {
         width: 100%;
         padding: 0;
 
     }
-    .pagepic img{
+
+    .pagepic img {
         margin: 2% 0;
     }
+
     .pagetext {
         width: 100%;
         margin: 0;
     }
-    
+
     .line-text {
         font-size: 120px;
         top: -96px;
@@ -473,40 +573,46 @@ span {
         top: -270px;
         -webkit-text-stroke: 1px #ffffff;
     }
+
     .linetext-web {
         font-size: 100px;
         top: -88px;
     }
-    
+
     .linetext-webdesign {
         font-size: 100px;
         top: -233px;
 
     }
+
     .page01kv {
         width: 100%;
         background-image: url(../img/dividend-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page02kv {
         width: 100%;
         background-image: url(../img/proposal-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page03kv {
         width: 100%;
         background-image: url(../img/gym-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page04kv {
         width: 100%;
         background-image: url(../img/deer-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page05kv {
         width: 100%;
         background-image: url(../img/travel-kv-t.jpg);
@@ -514,19 +620,21 @@ span {
         background-position: center;
     }
 
-
+ 
 }
 
 /* tablets */
 @media (max-width: 768px) {
-    .gotop{
+    .gotop {
         display: none;
     }
+
     .chapter-text {
         font-size: 48px;
         line-height: 60px;
         padding-bottom: 16px;
     }
+
     .area {
         display: block;
     }
@@ -539,13 +647,16 @@ span {
     .number {
         width: 130px;
     }
+
     .chapter {
         width: 80%;
     }
+
     .item {
         margin: 0%;
         padding: 4% 0;
     }
+
     .view {
         width: 80%;
         margin: 0 auto;
@@ -578,16 +689,18 @@ span {
         top: -270px;
         -webkit-text-stroke: 2px #ffffff;
     }
+
     .linetext-web {
         font-size: 100px;
         top: -185px;
     }
-    
+
     .linetext-webdesign {
         font-size: 100px;
         top: -330px;
         -webkit-text-stroke: 2px #ffffff;
     }
+
     .page {
         width: 100%;
         height: 150px;
@@ -600,9 +713,11 @@ span {
         width: 100%;
         padding: 15px 0;
     }
+
     .pagetext img {
         width: 60px;
     }
+
     .pxy-120 {
         padding: 100px 0;
     }
@@ -641,15 +756,17 @@ span {
     .pxy-2060 {
         padding: 0;
     }
-    .list-right::before{
+
+    .list-right::before {
         top: 28px;
         left: -30px;
         border-left: 10px solid transparent;
         border-right: 10px solid rgb(36, 36, 36);
         border-top: 8px solid transparent;
-        border-bottom: 8px solid transparent; 
+        border-bottom: 8px solid transparent;
     }
-    .list-left::after {        
+
+    .list-left::after {
         right: -30px;
         bottom: 56px;
         border-left: 10px solid rgb(36, 36, 36);
@@ -683,37 +800,38 @@ span {
         font-size: 60px;
         top: -236px;
     }
+
     .linetext-web {
         font-size: 46px;
         top: -140px;
     }
-    
+
     .linetext-webdesign {
         font-size: 46px;
         top: -206px;
 
     }
+
     .number {
         width: 80px;
     }
+
     .fs-32 {
         font-size: 22px;
     }
-    .fs-40{
+
+    .fs-40 {
         font-size: 34px;
     }
+
     .fs-24 {
         font-size: 18px;
     }
-    .word{
+
+    .word {
         font-size: 18px;
         margin: 10px;
     }
-
-    .pb-140 {
-        padding-bottom: 40px;
-    }
-
 
     .footertext {
         font-size: 48px;
@@ -741,24 +859,57 @@ span {
         background-size: cover;
         background-position: center;
     }
+
     .page03kv {
         width: 100%;
         background-image: url(../img/gym-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page04kv {
         width: 100%;
         background-image: url(../img/deer-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
+
     .page05kv {
         width: 100%;
         background-image: url(../img/travel-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
-
+    .colorplan {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .rgb01, .rgb02, .rgb03, .rgb04, .rgb05 {
+        width: 90px;
+        height: 60px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .rgbtext {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        transform: rotate(-180deg);
+        font-weight: bold;
+        padding: 0px 65px;
+        height: 29px;
+        font-size: 12px;
+    }
+    .rgb01::before, .rgb02::before, .rgb03::before, .rgb04::before, .rgb05::before {
+        content: '';
+        position: relative;
+        background-color: #ffffff;
+        opacity: .5;
+        writing-mode: vertical-rl;
+        text-orientation: sideways-right;
+        vertical-align: middle;
+        padding: 30px 4px;
+        left: 58px;
+        top: 1px;
+    }
 
 }
